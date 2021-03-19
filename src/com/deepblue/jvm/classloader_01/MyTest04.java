@@ -5,7 +5,7 @@ package com.deepblue.jvm.classloader_01;
  *
  * 数组类型是JVM在运行期间生成的一种类型,并且创建一个数组不会被看做对内部内部类型的首次主动调用
  *
- * 数组类型往往表示为[Lcom.inspur.jvm.classloader_01.MyParent4
+ * 数组类型往往表示为[Lcom.deepblue.jvm.classloader_01.MyParent4
  *
  * 在JavaDoc中 数组被成为一种组件(component)包装类型,所谓组件就是数组去掉一个维度后的类型,且父类的类型为Object
  *

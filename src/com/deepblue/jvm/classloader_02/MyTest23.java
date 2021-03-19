@@ -62,7 +62,7 @@ public class MyTest23 {
         System.out.println("---------------------------------------");
         System.out.println(ClassLoader.getSystemClassLoader());
 
-        System.setProperty("java.system.class.loader","com.inspur.jvm.classloader_02.MyTest16");
+        System.setProperty("java.system.class.loader","com.deepblue.jvm.classloader_02.MyTest16");
         System.out.println(ClassLoader.getSystemClassLoader());
         System.out.println(ClassLoader.getSystemClassLoader().getParent());
     }

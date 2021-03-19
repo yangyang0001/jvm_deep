@@ -32,10 +32,10 @@ public class MyTest17_1 {
          *      System.out.println("MyCat load is by " + this.getClass().getClassLoader());
          *
          * the last result is
-         *      findClass invoked className -------:com.inspur.jvm.classloader_02.MySample
+         *      findClass invoked className -------:com.deepblue.jvm.classloader_02.MySample
          *      classLoader name ------------------:loader1
          *      MySample load is by loader1
-         *      findClass invoked className -------:com.inspur.jvm.classloader_02.MyCat
+         *      findClass invoked className -------:com.deepblue.jvm.classloader_02.MyCat
          *      classLoader name ------------------:loader1
          *      MyCat load is by loader1
          *      clazz hasecode --------------------:
@@ -69,7 +69,7 @@ public class MyTest17_1 {
          *      System.out.println("MyCat load is by " + this.getClass().getClassLoader());
          *the last result is
          *
-         *      findClass invoked className -------:com.inspur.jvm.classloader_02.MySample
+         *      findClass invoked className -------:com.deepblue.jvm.classloader_02.MySample
          *      classLoader name ------------------:loader1
          *      MySample load is by loader1
          *      MyCat load is by sun.misc.Launcher$AppClassLoader@75b84c92
